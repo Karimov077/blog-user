@@ -19,6 +19,7 @@
     - name (string),
     - email (string),
     - password (string),
+    - phoneNumber (string)
     - created_at (timestamp),
     - updated_at (timestamp)
 

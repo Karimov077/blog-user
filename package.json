@@ -3,14 +3,16 @@
   "version": "1.0.0",
   "description": "- Bu loyiha foydalanuvchiga ko'plab imkoniyatlar beradi: rasm qo'yish yoki post yozish",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/server.js",
+    "start:dev": "nodemon src/server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Karimov077/blog-user.git"
   },
-  "author": "",
+  "author": "Baratboyev Ulugbek",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Karimov077/blog-user/issues"
@@ -18,5 +20,15 @@
   "homepage": "https://github.com/Karimov077/blog-user#readme",
   "devDependencies": {
     "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.13.2",
+    "multer": "^1.4.5-lts.2"
   }
 }
