@@ -1,0 +1,22 @@
+{
+  "name": "blog-beckend",
+  "version": "1.0.0",
+  "description": "- Bu loyiha foydalanuvchiga ko'plab imkoniyatlar beradi: rasm qo'yish yoki post yozish",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karimov077/blog-user.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Karimov077/blog-user/issues"
+  },
+  "homepage": "https://github.com/Karimov077/blog-user#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
