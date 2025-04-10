@@ -5,7 +5,6 @@ const postModel = new mongoose.Schema({
         type: String,
         required: true,
         unique: true,
-        match: [/^[a-zA-Z0-9\s]{3,100}$/, "Title must be alphanumeric and between 3 to 100 characters long"],
     },
     content: {
         type: String,
@@ -25,3 +24,5 @@ const postModel = new mongoose.Schema({
     timestamps: true,
     versionKey: false,
 });
+
+export default mongoose.model("Post", postModel);
