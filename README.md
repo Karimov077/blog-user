@@ -28,6 +28,7 @@
     - user_id (int) ref : user
     - title (text),
     - content (string),
+    - published (boolean),
     - created_at (timestamp),
     - updated_at (timestamp)
 
